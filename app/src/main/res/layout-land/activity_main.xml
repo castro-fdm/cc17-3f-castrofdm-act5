@@ -11,21 +11,22 @@
 
     <LinearLayout
         android:id="@+id/linearLayout1"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="164dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="24dp"
+        android:layout_width="707dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="4dp"
         android:background="@android:color/darker_gray"
         android:orientation="horizontal"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61">
 
         <ImageView
             android:id="@+id/firstImage"
@@ -39,7 +40,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:background="@android:color/darker_gray"
         android:orientation="vertical"
@@ -55,27 +56,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/first_image_auth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="34dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.89"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent">
 
         <!--go to next art-->
         <Button
